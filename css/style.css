@@ -1,0 +1,181 @@
+::selection{
+    background:transparent;
+}
+
+html{
+    width: 100%;;
+    margin:0 0 0 0;
+    background-color: #edd3d8;
+}
+body{
+    width: 100%;
+    margin:0 0 0 0;
+    font-family:Microsoft JhengHei;
+}
+
+#layer1{
+    color: white;
+    font-style: normal;
+    background-color:#ffffff;
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    padding: 1% 4% 1% 4%;
+    border-bottom :#e69197 dashed 2px;
+}
+#layer2_left{
+    background-color: #fff;
+    color: #696667;
+    width: 18%;
+    height: 100%;
+    padding: 1% 2% 6% 2%;
+    float: left;
+    overflow: auto;
+    margin: 7% 1% 7% 4%;
+    position: relative;
+    z-index: -1;
+    scrollbar-width: none;
+}
+#layer2_right{
+    background-color: #fff;
+    color: #696667;
+    width: 64%;
+    height: 100%;
+    padding: 1% 2% 6% 2%;
+    float: left;
+    overflow: auto;
+    margin: 7% 4% 7% 1%;
+    position: relative;
+    z-index: -1;
+    scrollbar-width: none;
+}
+#layer3{
+    width: 100%;
+    height: 10%;
+    font-style: normal;
+    background-color:#fff;
+    position: fixed;
+    bottom: 0%;
+    float: left;
+    border-top :#e69197 dashed 2px;
+}
+
+.one001{
+    color: #e69197;
+    text-decoration: none;
+    background-color: white;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    border: white double 3px;
+    border-radius: 15px;
+}
+.one002{
+    color: #e69197;
+    height: 20px;
+    line-height: 20px;
+    padding: 2 2px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border: #e69197 double 3px;
+    border-radius: 10px;
+    width: 80px;
+    position: fixed;
+    right: 10px;
+    cursor: pointer;
+}
+#aboutme:hover{
+    border: #fff solid 3px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #e69197;
+}
+.one001:hover{
+    border: #fff solid 3px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #e69197;
+}
+
+.two001{
+    display: none;
+}
+.two002{
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    text-align: left;
+    padding: 2px 10px;
+    font-size: 16px;
+    width: 150px;
+    position: relative;
+    left: -40px;
+    border-left: gray solid 3px;
+    margin-bottom: 3px;
+}
+.two002:hover{
+    border-left: #e69197 solid 3px;
+    color: #e69197;
+}
+.two003{
+    cursor: pointer;
+    width: 150px;
+    height: 20px;
+    color: white;
+    background-color: #b0aeae;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    border: #b0aeae solid 1px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.two003:hover{
+    box-shadow:0px 0px 5px 1px #b0aeae;
+}
+
+
+.three001{
+    color: #e69197;
+    line-height: 22px;
+    padding: 5 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+}
+#image{
+    padding: 1% 0% 2% 0%;
+}
+
+/* 
+移動到一個標籤後 顯現另一個block
+ref:https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover2
+
+div p ul{
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+.two003:hover + .two001{
+  display: block;
+}
+*/
+
+/*.examplearea{
+    font-size: 15px;
+    font-style: normal;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-left: 5px solid green;
+    width: 70%;
+    height: auto;
+}*/
