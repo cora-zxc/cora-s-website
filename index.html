@@ -2,18 +2,18 @@
 <html>
 	<head>
 		<title>
-  			隨C談 - 生活札記/學習筆記
+			隨C談 - 生活札記/學習筆記
 		</title>
 		<meta http-equiv="content-type" content="text/html">
 		<link rel="shortcut icon" type="image/x-icon" href="image/C-Logo.png" />
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 		<!-- Required meta tags -->
-    	<meta charset="utf-8">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	</head>
-	<body onload="load()">
+	<body onload="loadMainListItem()">
 		<div id="header">
 			<span class="titleSty" onclick="location.reload()">
 				隨C談:隨心談
@@ -21,8 +21,9 @@
 			<div onclick="linkAboutMeContentToJson(0)" class="aboutMeSty">
 				About Me
 			</div>
-		</div> <!--end of id="header2"-->
-		<div id="left">			
+		</div> <!--end of id="header"-->
+
+		<div id="left">
 			<p onmousedown="displayToggleByJQuery('#item_a')" class="leftMainItemStyle">
 				網頁HTML筆記
 			</p>
@@ -32,45 +33,26 @@
 				網頁CSS筆記
 			</p>
 			<ul id="item_b" class="displayNone">
-				<li class="leftItemStyle">
-					updating
-				</li>
-				<li class="leftItemStyle">
-					updating
-				</li>
-				<li class="leftItemStyle">
-					updating
-				</li>
 			</ul>
 			<p onmousedown="displayToggleByJQuery('#item_c')" class="leftMainItemStyle">
 				收藏回憶
 			</p>
 			<ul id="item_c" class="displayNone">
-				<li class="leftItemStyle">
-					updating
-				</li >
-				<li class="leftItemStyle">
-					updating
-				</li>
-				<li onclick="linkTreasureMemoryContentToJson(0)" class="leftItemStyle">
-					Barn dance
-				</li>					
 			</ul>
-		</div> <!--end of id="layer2_left"-->
+		</div> <!--end of id="left"-->
+
 		<div id="right">
 			<h3 id="time" class="alert alert-info">
 				網站主題內容 架構 都還在思索中...
 			</h3>
-			<div id="title">
-					整頓中...
+			<div id="title" class="rightTitleStyle">
+				整頓中...
 			</div>
 			<div id="contain">
-				<!--aboutme-->
-				<div class="aboutMe displayNone">
-			     </div>
 			</div>
 			<img id="image" src="image/" alt="" title="">
-		</div> <!--end of id="layer2_right"-->
+		</div> <!--end of id="right"-->
+
 		<div id="footer">
 			<p class="footerSty">
 				It is not difficult to make a decision, and is put into action, and stick to it.<br>
@@ -80,5 +62,6 @@
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/function.js"></script>
 		<script src="data.js"></script>
+		<script src="https://d3js.org/d3.v6.min.js"></script>  <!--d3.js 只嵌入 還沒運用-->
 	</body>
 </html>

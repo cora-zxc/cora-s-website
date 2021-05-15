@@ -1,3 +1,12 @@
+
+var aboutMe = [
+	{
+		"date":"ABOUT ME",
+		"topic":"我是一個正在學習新事物的人. 神奇寶貝進化中...",
+		"text":"Make ourself a better man, make the world a better place."
+	}
+];
+
 var notesHtml = [
 	{
 		"date":"2020/09/13",
@@ -484,21 +493,35 @@ var itemsNotesHtml = [
 	{
 		"title":"視訊&音訊",
 		"type":"9"
-	}];
-var side_html_title = [
-	{
-		"title":"視訊和音訊",
-		"id":0
 	}
 ];
-var aboutMe = [
+
+var itemsNotesCss = [
 	{
-		"date":"ABOUT ME",
-		"topic":"我是一個正在學習新事物的人. 神奇寶貝進化中...",
-		"text":"Make ourself a better man, make the world a better place."
+		"title":"updating",
+		"type":"0"
+	},
+	{
+		"title":"updating",
+		"type":"1"
+	},
+	{
+		"title":"updating",
+		"type":"2"
 	}
 ];
+
 var treasureMemory = [
+	{
+		"date":"Coming soon",
+		"topic":"Please wait.",
+		"text":""
+	},
+	{
+		"date":"Coming soon",
+		"topic":"Please wait.",
+		"text":""
+	},
 	{
 		"date":"2020/09/18",
 		"topic":"Barn dance-the US traditional group dance",
@@ -514,5 +537,19 @@ var treasureMemory = [
 			Cause I've come from Alabama with My banjo on my kne-e-e-e. Hey <br><br> \
 			**<i>Reference Link: <a href='https://www.youtube.com/watch?v=k3GpysVsa3s'\
 			target='_blank'>Barn dance-oh susanna</a></i>"
+	}
+];
+var itemsTreasureMemory = [
+	{
+		"title":"updating",
+		"type":"0"
+	},
+	{
+		"title":"updating",
+		"type":"1"
+	},
+	{
+		"title":"Barn dance",
+		"type":"2"
 	}
 ]

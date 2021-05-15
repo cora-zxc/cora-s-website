@@ -1,168 +1,168 @@
 ::selection{
-    background:wheat;
+	background:wheat;
 }
 html{
-    width: 100%;;
-    margin:0 0 0 0;
-    background-color: #edd3d8;
+	width: 100%;;
+	margin:0 0 0 0;
+	background-color: #edd3d8;
 }
 body{
-    width: 100%;
-    margin:0 0 0 0;
-    font-family:Microsoft JhengHei;
-    background-color: transparent !important;
+	width: 100%;
+	margin:0 0 0 0;
+	font-family:Microsoft JhengHei;
+	background-color: transparent !important;
 }
 
 #header{
-    color: white;
-    font-style: normal;
-    background-color:#ffffff;
-    width:100%;
-    line-height: 30px;
-    position: fixed;
-    padding: 1% 1% 1% 1%;
-    border-bottom :#e69197 dashed 2px;
-    z-index: 1;  /* 將置頂層設定高於其他層（預設為0） */
+	color: white;
+	font-style: normal;
+	background-color:#ffffff;
+	width:100%;
+	line-height: 30px;
+	position: fixed;
+	padding: 1% 1% 1% 1%;
+	border-bottom :#e69197 dashed 2px;
+	z-index: 1;  /* 將置頂層設定高於其他層（預設為0） */
 }
 #left{
-    background-color: #fff;
-    color: #696667;
-    width: 20%;
-    height: 100%;
-    padding: 1% 2% 6% 2%;
-    float: left;
-    overflow: auto;
-    margin: 7% 1% 4% 4%;
-    position: relative;
-    min-height: 60%;
-    /* z-index: -1;           -1會使該內容將無法與使用者互動 */
+	background-color: #fff;
+	color: #696667;
+	width: 20%;
+	height: 100%;
+	padding: 1% 2% 6% 2%;
+	float: left;
+	overflow: auto;
+	margin: 7% 1% 4% 4%;
+	//position: relative;
+	min-height: 60%;
+	/* z-index: -1;		   -1會使該內容將無法與使用者互動 */
 }
 #right{
-    background-color: #fff;
-    color: #696667;
-    width: 55%;
-    height: 100%;
-    padding: 1% 2% 6% 2%;
-    float: left;
-    overflow: auto;
-    margin: 7% 4% 4% 1%;
-    position: relative;
-    min-height: 60%;
-    /* z-index: -1;           -1會使該內容將無法與使用者互動 */
+	background-color: #fff;
+	color: #696667;
+	width: 55%;
+	height: 100%;
+	padding: 1% 2% 6% 2%;
+	float: left;
+	overflow: auto;
+	margin: 7% 4% 4% 1%;
+	//position: relative;
+	min-height: 60%;
+	/* z-index: -1;		   -1會使該內容將無法與使用者互動 */
 }
 #footer{
-    width: 100%;
-    height: auto;
-    font-style: normal;
-    background-color:#fff;
-    position: relative;
-    bottom: 0%;
-    float: left;
-    border-top :#e69197 dashed 2px;
+	width: 100%;
+	height: auto;
+	font-style: normal;
+	background-color:#fff;
+	position: relative;
+	bottom: 0%;
+	float: left;
+	border-top :#e69197 dashed 2px;
 }
 
 .displayNone{
-    display: none;
+	display: none;
 }
 
 .titleSty{
-    color: #e69197;
-    text-decoration: none;
-    background-color: white;
-    float: left;
-    padding: 0 10px;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    border: white double 3px;
-    border-radius: 15px;
+	color: #e69197;
+	text-decoration: none;
+	background-color: white;
+	float: left;
+	padding: 0 10px;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	border: white double 3px;
+	border-radius: 15px;
 }
 .titleSty:hover{
-    border: #fff solid 3px;
-    font-weight: 900;
-    color: #fff;
-    background-color: #e69197;
+	border: #fff solid 3px;
+	font-weight: 900;
+	color: #fff;
+	background-color: #e69197;
 }
-
 .aboutMeSty{
-    color: #e69197;
-    //height: 20px;
-    //line-height: 20px;
-    padding: 2 2px;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    //border: #e69197 double 3px;
-    border-radius: 10px;
-    width: 80px;
-    position: fixed;
-    right: 10px;
-    cursor: pointer;
+	color: #e69197;
+	//height: 20px;
+	//line-height: 20px;
+	padding: 2 2px;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	//border: #e69197 double 3px;
+	border-radius: 10px;
+	width: 80px;
+	position: fixed;
+	right: 10px;
+	cursor: pointer;
 }
 .aboutMeSty:hover{
-    color: #fff;
-    background-color: #e69197;
+	color: #fff;
+	background-color: #e69197;
 }
 
 .leftMainItemStyle{
-    cursor: pointer;
-    color: white;
-    background-color: #b0aeae;
-    margin: 5px 0px;
-    padding: 5px 0px;
-    border: #b0aeae solid 1px;
-    text-align: center;
-    border-radius: 10px;
-    min-width: 100%;
+	cursor: pointer;
+	color: white;
+	background-color: #b0aeae;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	border: #b0aeae solid 1px;
+	text-align: center;
+	border-radius: 10px;
+	min-width: 100%;
 }
 .leftMainItemStyle:hover{
-    box-shadow:0px 0px 5px 1px #b0aeae;
+	box-shadow:0px 0px 5px 1px #b0aeae;
 }
 
 .leftItemStyle{
-    cursor: pointer;
-    display: block;
-    background-color: #fff;
-    text-align: left;
-    padding: 2px 10px;
-    font-size: 15px;
-    width: max-content;
-    position: relative;
-    left: -40px;
-    border-left: gray solid 3px;
-    margin-bottom: 3px;
+	cursor: pointer;
+	display: block;
+	background-color: #fff;
+	text-align: left;
+	padding: 2px 10px;
+	font-size: 15px;
+	width: max-content;
+	position: relative;
+	left: -40px;
+	border-left: gray solid 3px;
+	margin-bottom: 3px;
 }
 .leftItemStyle:hover{
-    border-left: #e69197 solid 3px;
-    color: #e69197;
+	border-left: #e69197 solid 3px;
+	color: #e69197;
 }
-
-
-
 .footerSty{
-    color: #e69197;
-    line-height: 22px;
-    padding: 5 5px;
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-    letter-spacing: 2px;
+	color: #e69197;
+	line-height: 22px;
+	padding: 5 5px;
+	font-size: 15px;
+	font-weight: 500;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 2px;
 }
 #image{
-    padding: 1% 0% 2% 0%;
+	padding: 1% 0% 2% 0%;
 }
 .exampleStyleBox{
-    font-size: 15px;
-    font-style: normal;
-    background-color: #ddf0e2;
-    padding: 20px;
-    margin: 10px;
-    border-left: 5px solid green;
-    width: 70%;
-    height: auto;
+	font-size: 15px;
+	font-style: normal;
+	background-color: #ddf0e2;
+	padding: 20px;
+	margin: 10px;
+	border-left: 5px solid green;
+	width: 70%;
+	height: auto;
 }
-
+.rightTitleStyle{
+	font-size: 20px;
+	font-weight: 900;
+	color: darkblue;
+}
 /* 
 移動到一個標籤後 顯現另一個block
 ref:https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover2

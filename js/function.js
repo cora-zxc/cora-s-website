@@ -41,7 +41,7 @@
 
 
 function displayToggleByJQuery(item) {
- 	$(item).slideToggle(500);
+	$(item).slideToggle(500);
 }
 function linkAboutMeContentToJson(num){
 	time.textContent=aboutMe[num].date;
@@ -58,11 +58,21 @@ function linkTreasureMemoryContentToJson(num){
 	title.textContent=treasureMemory[num].topic;
 	contain.innerHTML=treasureMemory[num].text
 }
-function load(){
+function loadMainListItem(){
 	for(var i=0;i<itemsNotesHtml.length;i++){
 		document.getElementById("item_a").innerHTML += 
 			"<li onclick='linkNotesHtmlContentToJson("+itemsNotesHtml[i].type+")' class='leftItemStyle'>"+
 			itemsNotesHtml[i].title+"</li>";
+	};
+	for(var i=0;i<itemsNotesCss.length;i++){
+		document.getElementById("item_b").innerHTML += 
+			"<li class='leftItemStyle'>"+
+			itemsNotesCss[i].title+"</li>";
+	};
+	for(var i=0;i<itemsTreasureMemory.length;i++){
+		document.getElementById("item_c").innerHTML += 
+			"<li onclick='linkTreasureMemoryContentToJson("+itemsTreasureMemory[i].type+")' class='leftItemStyle'>"+
+			itemsTreasureMemory[i].title+"</li>";
 	}
 }
 
